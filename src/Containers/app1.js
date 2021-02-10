@@ -46,7 +46,7 @@ class App extends React.Component {
       this.setState({ userInfo, error: null });
     } catch (error) {
       const errorMessage =
-        error.code === statusCodes.SIGN_IN_REQUIRED ? 'Please sign in33:)' : error.message;
+        error.code === statusCodes.SIGN_IN_REQUIRED ? 'Please sign in:)' : error.message;
       this.setState({
         error: new Error(errorMessage),
       });
@@ -183,14 +183,14 @@ class App extends React.Component {
 
 const styles = StyleSheet.create({
   scrollView: {
-    //backgroundColor: Colors.lighter,
+   // backgroundColor: Colors.lighter,
   },
   engine: {
     position: 'absolute',
     right: 0,
   },
   body: {
-  //  backgroundColor: Colors.white,
+    //backgroundColor: Colors.white,
   },
   sectionContainer: {
     marginTop: 32,
@@ -199,19 +199,19 @@ const styles = StyleSheet.create({
   sectionTitle: {
     fontSize: 24,
     fontWeight: '600',
-   // color: Colors.black,
+    //color: Colors.black,
   },
   sectionDescription: {
     marginTop: 8,
     fontSize: 18,
     fontWeight: '400',
-    //color: Colors.dark,
+   // color: Colors.dark,
   },
   highlight: {
     fontWeight: '700',
   },
   footer: {
-   // color: Colors.dark,
+    //color: Colors.dark,
     fontSize: 12,
     fontWeight: '600',
     padding: 4,
